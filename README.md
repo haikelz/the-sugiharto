@@ -1,7 +1,12 @@
 # The Sugiharto
 
-Slicing designnya bang Nauval Arrayid, dengan NextJS dan Tailwindcss
+Slicing designnya bang Nauval Arrayid, with NextJS and Tailwindcss
+ 
+## Run/test this in your local machine
 
-# TODO
+- Clone this repo
+- Run `yarn install`
+- After that, run `yarn run dev` to see the result
 
-- Login Page(WIP)
+
+![Screenshot](/public/ss.png)
