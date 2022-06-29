@@ -5,7 +5,7 @@ const SugihartoOverview = () => {
   return (
     <LazyMotion features={domAnimation}>
       <m.div
-        transition={{ duration: 0.5, delay: 1 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
         className="mt-6 hidden flex-col items-center tablet:flex"

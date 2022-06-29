@@ -4,7 +4,7 @@ const ListHome = () => {
   return (
     <LazyMotion features={domAnimation}>
       <m.ul
-        transition={{ duration: 0.5, delay: 1 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
         className="mt-8 flex"

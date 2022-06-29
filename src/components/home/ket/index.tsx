@@ -6,7 +6,7 @@ const KetHome = () => {
     <>
       <LazyMotion features={domAnimation}>
         <m.div
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5 }}
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           className="absolute -ml-24 -mt-10 flex"
@@ -19,7 +19,7 @@ const KetHome = () => {
           />
         </m.div>
         <m.div
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5 }}
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           className="flex flex-col"

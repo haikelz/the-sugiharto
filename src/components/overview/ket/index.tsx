@@ -8,7 +8,7 @@ const OverviewKet = () => {
       <div className="tablet:max-w-[50%]">
         <m.div
           className="relative flex items-center"
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5 }}
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
         >
@@ -20,7 +20,7 @@ const OverviewKet = () => {
 
         <m.div
           className="flex flex-col items-start tablet:hidden"
-          transition={{ duration: 0.5, delay: 1 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
@@ -29,7 +29,7 @@ const OverviewKet = () => {
         </m.div>
         <m.p
           className="my-6 pr-4 opacity-60"
-          transition={{ duration: 0.5, delay: 1.5 }}
+          transition={{ duration: 0.5, delay: 1 }}
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
         >
@@ -39,7 +39,7 @@ const OverviewKet = () => {
         </m.p>
 
         <m.div
-          transition={{ duration: 0.5, delay: 2 }}
+          transition={{ duration: 0.5, delay: 1.5 }}
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
@@ -57,7 +57,7 @@ const OverviewKet = () => {
         </m.div>
 
         <m.div
-          transition={{ duration: 0.5, delay: 2.5 }}
+          transition={{ duration: 0.5, delay: 2 }}
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >

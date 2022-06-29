@@ -10,7 +10,7 @@ const ListSkills = () => {
           <m.div
             className="mb-10 flex w-full flex-col flex-wrap items-center text-center"
             key={index + 1}
-            transition={{ duration: 0.5, delay: 1.5 }}
+            transition={{ duration: 0.5, delay: 1 }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
