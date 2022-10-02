@@ -1,6 +1,16 @@
-import Head from 'next/head'
+import { memo, useEffect } from "react";
+import { NextRouter, useRouter } from "next/router";
+import Head from "next/head";
 
 const NotFoundPage = () => {
+  const router: NextRouter = useRouter();
+
+  useEffect(() => {
+    setTimeout(() => {
+      router.push("/");
+    }, 5000);
+  });
+
   return (
     <>
       <Head>
@@ -12,7 +22,7 @@ const NotFoundPage = () => {
         </p>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default NotFoundPage
+export default memo(NotFoundPage);
