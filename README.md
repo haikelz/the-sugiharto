@@ -1,12 +1,13 @@
-# The Sugiharto
+<div align="center">
+  <h1>The Sugiharto</h1> 
+  <p>Slicing UI Design bang Nauval ArrayID</p>
+</div> 
 
-Slicing designnya bang Nauval Arrayid, with NextJS and Tailwindcss
- 
-## Run/test this in your local machine
+## Tech Stack
 
-- Clone this repo
-- Run `yarn install`
-- After that, run `yarn run dev` to see the result
-
+- NextJS 
+- TailwindCSS 
+- Jotai
+- Framer Motion
 
 ![Screenshot](/public/ss.png)
